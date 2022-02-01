@@ -1,0 +1,38 @@
+.jgc-footer {
+    height: 6rem;
+    background-color: #f06;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jgc-social-media {
+    margin-left: 3rem;
+}
+
+.jgc-footer-social {
+    margin-right: 3rem;
+}
+
+.jgc-footer-btn {
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 0 1em;
+    border: 2px white solid;
+    line-height: 36px;
+    border-radius: 2px;
+}
+
+.jgc-footer-btn:hover {
+    background-color: white;
+    color:#f06
+}
+
+.sm-icons {
+    color: white;
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}

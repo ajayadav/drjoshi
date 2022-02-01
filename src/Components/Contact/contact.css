@@ -1,0 +1,24 @@
+.jgc-contact-container {
+    margin: 4rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jgc-contact-left-section {
+    width: 50%;
+}
+
+.jgc-contact-right-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jgc-contact-form {
+    padding: 40px 50px 30px;
+    background-color: #ecf0f2;
+}
+
+.label-hidden {
+    display: none;
+}

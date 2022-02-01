@@ -12,21 +12,21 @@ import Home from './Home';
 import About from './About';
 import Header from './Header';
 import Services from './Services';
-
+import Contact from './Contact';
+import Footer from './Footer';
 
 class App extends React.Component {
     render() {
-        return (
-            <div>
-                <Router>
-                    <Header />
-                    <Route path='/' exact component={Home} />
-                    <Route path='/Home' exact component={Home} />
-                    <Route path='/About' exact component={About} />
-                    <Route path='/Services' exact component={Services} />
-                </Router>
-            </div>
-            
+        return (     
+            <Router>
+                <Header />
+                <Route path='/' exact component={Home} />
+                <Route path='/Home' component={Home} />
+                <Route path='/About' component={About} />
+                <Route path='/Services' component={Services} />
+                <Route path='/Contact' component={Contact} />
+                <Footer />
+            </Router>           
         )
     }
 }
